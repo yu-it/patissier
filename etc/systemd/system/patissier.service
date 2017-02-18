@@ -1,0 +1,9 @@
+[Unit]
+Description=patissier service
+
+[Service]
+ExecStart=/home/pi/bin/event/patissier.sh
+Type=simple
+
+[Install]
+WantedBy=multi-user.target
